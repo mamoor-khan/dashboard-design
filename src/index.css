@@ -91,6 +91,11 @@ body,
 
 .list-container li.active {
   opacity: 0.6;
+  cursor: pointer;
+}
+
+.list-container li.active * {
+  cursor: pointer;
 }
 
 .next-icon {
